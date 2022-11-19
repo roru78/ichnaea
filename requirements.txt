@@ -4,7 +4,7 @@
 #
 #    make update-reqs
 #
-aiohttp==3.7.4 \
+aiohttp==3.8.0 \
     --hash=sha256:119feb2bd551e58d83d1b38bfa4cb921af8ddedec9fad7183132db334c3133e0 \
     --hash=sha256:16d0683ef8a6d803207f02b899c928223eb219111bd52420ef3d7a8aa76227b6 \
     --hash=sha256:2eb3efe243e0f4ecbb654b08444ae6ffab37ac0ef8f69d3a2ffb958905379daf \
@@ -576,7 +576,7 @@ ndg-httpsclient==0.5.1 \
     --hash=sha256:d72faed0376ab039736c2ba12e30695e2788c4aa569c9c3e3d72131de2592210 \
     --hash=sha256:dd174c11d971b6244a891f7be2b32ca9853d3797a72edb34fa5d7b07d8fff7d4
     # via -r requirements.in
-numpy==1.20.3 \
+numpy==1.22.2 \
     --hash=sha256:1676b0a292dd3c99e49305a16d7a9f42a4ab60ec522eac0d3dd20cdf362ac010 \
     --hash=sha256:16f221035e8bd19b9dc9a57159e38d2dd060b48e93e1d843c49cb370b0f415fd \
     --hash=sha256:43909c8bb289c382170e0282158a38cf306a8ad2ff6dfadc447e90f9961bef43 \
@@ -1151,3 +1151,4 @@ zope.interface==5.2.0 \
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
