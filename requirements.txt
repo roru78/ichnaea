@@ -4,7 +4,7 @@
 #
 #    make update-reqs
 #
-aiohttp==3.7.4 \
+aiohttp==3.8.5 \
     --hash=sha256:119feb2bd551e58d83d1b38bfa4cb921af8ddedec9fad7183132db334c3133e0 \
     --hash=sha256:16d0683ef8a6d803207f02b899c928223eb219111bd52420ef3d7a8aa76227b6 \
     --hash=sha256:2eb3efe243e0f4ecbb654b08444ae6ffab37ac0ef8f69d3a2ffb958905379daf \
