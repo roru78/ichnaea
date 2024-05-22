@@ -1,3 +1,4 @@
 # Requirements to build documentation
 Sphinx==3.3.1
 everett
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
