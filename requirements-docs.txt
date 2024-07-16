@@ -1,3 +1,4 @@
 # Requirements to build documentation
 Sphinx==3.3.1
 everett
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
